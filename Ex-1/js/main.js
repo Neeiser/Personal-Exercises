@@ -11,6 +11,7 @@ let btn = document.getElementById('btn');
 btn.addEventListener('click', function(){
     const resultDisplayed = document.getElementById('display');
     resultDisplayed.innerHTML = numbReverter(input.value);
+    input.value = '';
 })
 
 function numbReverter(number){
